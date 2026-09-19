@@ -3,7 +3,7 @@
 	"id": "potion-of-haste",
 	"version": "${version}",
 	"name": "Potion of Haste",
-	"description": "Adds a potion of haste.",
+	"description": "Adds 4 variations of a potion of haste.",
 	"authors": [
 		"dotnet"
 	],
