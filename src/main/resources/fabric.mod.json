@@ -8,8 +8,8 @@
 		"dotnet"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://github.com/Honuluau/Potion-of-Haste",
+		"sources": "https://github.com/Honuluau/Potion-of-Haste"
 	},
 	"license": "MIT-License",
 	"icon": "assets/potion-of-haste/icon.png",
