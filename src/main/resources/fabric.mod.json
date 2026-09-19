@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "potion-of-haste",
+	"version": "${version}",
+	"name": "Potion of Haste",
+	"description": "Adds 4 variations of a potion of haste.",
+	"authors": [
+		"dotnet"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT-License",
+	"icon": "assets/potion-of-haste/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"honu.haste.PotionOfHaste"
+		],
+		"fabric-datagen": [
+			"honu.haste.PotionOfHasteDataGenerator"
+		]
+	},
+	"mixins": [
+		"potion-of-haste.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
