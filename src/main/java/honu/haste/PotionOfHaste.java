@@ -1,5 +1,7 @@
 package honu.haste;
 
+import honu.haste.potion.ModPotions;
+import honu.haste.registries.ModPotionRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -11,10 +13,11 @@ public class PotionOfHaste implements ModInitializer {
 	public static final String MOD_ID = "potion-of-haste";
 
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	// Test
+
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModPotions.registerPotions();
+		ModPotionRegistries.registerPotionRecipes();
 	}
 
 	public static Identifier id(String path) {
