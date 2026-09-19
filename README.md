@@ -13,8 +13,7 @@ A 26.2 Fabric Mod that adds 4 variants of a potion of haste to Minecraft. There 
 > Potions of Haste are brewed by adding a golden apple to a swiftness potion. 
 
 > [!IMPORTANT]
-> Java 21
-> Fabric Loader >=0.19.3
+> Requires at least Java 21 and a Fabric Loader at or above version 0.19.3
 
 ## Installation
 Check releases for .jar files or build by cloning this repo and using gradlew.
