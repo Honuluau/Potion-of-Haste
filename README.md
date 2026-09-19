@@ -1,7 +1,7 @@
 # Potion of Haste
+![Logo](src/main/resources/assets/potion-of-haste/icon.png)
 ## Basics
 A 26.2 Fabric Mod that adds 4 variants of a potion of haste to Minecraft. There are levels 1 and 2 for haste which can be 3 or 8 minutes.
-
 | Potion | Duration | Recipe                           |
 |---|---|----------------------------------|
 | Potion of Haste | 3 min | Swiftness Potion + Golden Apple  |
